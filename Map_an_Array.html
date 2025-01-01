@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p>Multiply every element in the array with 7:</p>
+        <p id="product_value"></p>
+        <script>
+            var numbers = [21,56,23,25,26,45,57,59,98,99,100,13,14,18,];
+            function myFunction(num) {
+                return num * 7;
+            }
+            var newarray = numbers.map(myFunction);
+            document.getElementById("product_value").innerHTML = newarray;
+        </script>
+    </body>
+</html>
